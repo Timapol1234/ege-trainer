@@ -1,0 +1,36 @@
+# Зависимости
+node_modules/
+/.pnp
+.pnp.js
+
+# Next.js
+/.next/
+/out/
+next-env.d.ts
+
+# Базы данных
+*.db
+*.sqlite
+lib/database/*.db
+
+# Переменные окружения
+.env
+.env.local
+.env.production
+.env.development
+
+# Логи
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Системные файлы
+.DS_Store
+*.log
+.thumbsdb
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
